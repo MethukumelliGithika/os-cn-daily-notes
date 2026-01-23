@@ -1,0 +1,158 @@
+🌐 Basics of Computer Networking
+
+
+📌 Introduction
+
+A computer network is a group of connected devices that communicate with each other to share data and resources. It enables efficient communication and supports services such as email, file sharing, and internet access.
+
+🔹 Key Features of Computer Networks
+
+Connects multiple devices such as computers, servers, and printers
+
+Enables data and resource sharing
+
+Supports communication services (email, messaging)
+
+Allows internet and network-based applications
+
+Improves efficiency and collaboration
+
+📘 Basic Terminologies
+🔹 Network
+
+A group of connected computers and devices that can communicate and share data.
+
+🔹 Node
+
+Any device that can send, receive, or forward data in a network.
+Examples: Laptops, mobiles, printers, earbuds, servers.
+
+🔹 Networking Devices
+
+Devices that manage and support networking functions.
+Examples: Routers, switches, hubs, access points.
+
+🔹 Transmission Media
+
+The medium through which data travels between devices.
+
+Wired Media: Ethernet cables, Optical fibre
+
+Wireless Media: Wi-Fi, Bluetooth, Infrared
+
+🔹 Service Provider Networks
+
+Networks provided by external organizations that offer internet or communication services.
+Examples: Internet Service Providers (ISPs), Mobile carriers.
+
+🛠 Basics of Computer Networks
+🔹 Building Blocks
+
+Network Node: Any device such as a modem, router, or computer that sends or receives data
+
+Link: The medium connecting nodes (cables, wires, wireless signals)
+
+🔹 Working of a Computer Network
+
+Networks use protocols to send and receive data
+
+Each device is identified using a unique IP Address
+
+🔹 Firewall
+
+A security tool (hardware or software) that monitors network traffic.
+It allows, blocks, or drops data based on predefined rules.
+
+🏗 Types of Computer Network Architecture
+1️⃣ Client–Server Architecture
+
+Nodes act as Clients or Servers
+
+Server manages and controls client behavior
+
+Common in enterprise and web applications
+
+2️⃣ Peer-to-Peer (P2P) Architecture
+
+No central server
+
+Each device can act as both client and server
+
+Simple and cost-effective for small networks
+
+🔌 Network Devices
+1️⃣ Router
+
+Connects multiple networks (e.g., home network to internet)
+
+Directs data packets to correct destinations
+
+2️⃣ Switch
+
+Connects devices within a network
+
+Sends data only to the intended device
+
+3️⃣ Hub
+
+Basic networking device
+
+Sends data to all connected devices (less efficient)
+
+4️⃣ Bridge
+
+Connects and filters traffic between network segments
+
+Reduces network congestion
+
+5️⃣ Gateway
+
+Connects different types of networks
+
+Translates data between different protocols
+
+6️⃣ Access Point (AP)
+
+Provides wireless connectivity
+
+Extends wired networks into Wi-Fi networks
+
+7️⃣ Modem
+
+Converts digital data to transmission signals and vice versa
+
+Enables internet access
+
+8️⃣ Firewall
+
+Monitors and controls network traffic
+
+Prevents unauthorized access
+
+🎯 Goals of Computer Networks
+
+Convenience: Makes computer usage easier
+
+Efficiency: Improves performance through resource sharing
+
+Resource Management: Efficient CPU, memory, I/O, and storage usage
+
+Security & Protection: Safeguards data and systems
+
+Reliability & Fault Tolerance: Ensures smooth operation and recovery
+
+Scalability: Supports growth in users and resources
+
+🚀 Uses of Computer Networks
+
+Communication: Email, chat, video conferencing
+
+Resource Sharing: Printers, scanners, files
+
+Remote Access: Access systems from anywhere
+
+Collaboration: Teamwork and project sharing
+
+E-commerce: Online shopping and secure payments
+
+Education: Online learning, research, and collaboration
