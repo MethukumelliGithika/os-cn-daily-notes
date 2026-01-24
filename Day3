@@ -1,0 +1,109 @@
+⚙️ System Calls
+
+
+
+📌 Introduction
+
+User programs cannot directly access hardware or critical OS resources because it may lead to instability and security issues.
+To ensure safe interaction, the Operating System provides System Calls — controlled interfaces that allow user programs to request services from the kernel.
+
+👉 System calls act as a gateway between User Mode and Kernel Mode.
+
+🔹 What are System Calls?
+
+System Calls are:
+
+A way for programs to interact with the operating system
+
+A mechanism to access OS services safely
+
+The only legal entry points into the kernel, executed in kernel mode
+
+🧠 Why System Calls are Needed?
+
+Without system calls:
+
+Programs would access hardware directly ❌
+
+System would become insecure and unstable
+
+No standard method to access OS services
+
+System calls ensure:
+
+Security
+
+Stability
+
+Consistency
+
+🧪 Examples of System Calls
+
+Opening a file in C:
+fopen() internally uses system calls like open()
+
+Running a program in Linux:
+Uses fork() and exec() system calls
+
+Printing output to screen:
+Uses the write() system call
+
+🔄 How System Calls Work
+
+User program executes a system call instruction
+(e.g., syscall, int 0x80)
+
+CPU switches from User Mode → Kernel Mode
+
+Kernel identifies the system call number
+
+Kernel performs the requested operation
+(file access, process creation, memory allocation, etc.)
+
+Kernel switches back to User Mode
+
+Result (success / failure / data) is returned to the program
+
+⚠️ Important Note
+
+System calls do NOT always cause context switching
+
+They mainly cause a mode switch
+
+A context switch happens only if the process is blocked
+
+📂 Types of System Calls
+
+System calls are classified based on the services they provide:
+
+1️⃣ File System
+
+Create, open, read, write, delete files
+
+Manage directories and file permissions
+
+2️⃣ Process Control
+
+Create and terminate processes
+
+Execute programs
+
+Synchronize processes
+
+3️⃣ Memory Management
+
+Allocate and deallocate memory
+
+Manage address spaces
+
+4️⃣ Interprocess Communication (IPC)
+
+Communication between processes
+
+Data sharing and synchronization
+
+5️⃣ Device Management
+
+Request and release devices
+
+Perform read/write operations on devices
