@@ -1,0 +1,228 @@
+🌐 Network Devices
+
+
+
+📌 Introduction
+
+Network Devices (Networking Hardware) are physical appliances required for communication and interaction between computers in a computer network.
+
+They act as the “plumbing of the internet”, responsible for:
+
+Directing data traffic
+
+Amplifying signals
+
+Securing network connections
+
+To understand their operation clearly, network devices are categorized based on the OSI Model layers they operate on.
+
+🔹 Functions of Network Devices
+
+Enable communication by transmitting and receiving data
+
+Allow devices to connect to networks securely and efficiently
+
+Improve network performance by managing traffic and reducing congestion
+
+Provide security by controlling access and blocking unauthorized activity
+
+Extend network coverage and overcome signal loss (attenuation)
+
+🧩 Types of Network Devices (Based on OSI Model)
+🔸 Layer 1 Devices – Physical Layer
+
+These devices work with raw bits (electrical/optical signals).
+They do not understand MAC or IP addresses.
+
+1️⃣ Hub
+
+Function:
+
+Central connection point for devices in a LAN
+
+How it Works:
+
+Receives data on one port and broadcasts it to all ports
+
+Drawbacks:
+
+High collisions
+
+Security risk (all devices receive all data)
+
+Status:
+
+❌ Obsolete
+
+✅ Replaced by Switches
+
+2️⃣ Repeater
+
+Function:
+
+Regenerates weak signals
+
+How it Works:
+
+Receives weak signal → amplifies → retransmits
+
+Use Case:
+
+Extending Wi-Fi range
+
+Ethernet beyond 100 meters
+
+3️⃣ Modem (Modulator–Demodulator)
+
+Function:
+
+Connects home/office network to ISP
+
+How it Works:
+
+Digital → Analog (Modulation)
+
+Analog → Digital (Demodulation)
+
+🔸 Layer 2 Devices – Data Link Layer
+
+These devices work with MAC Addresses and are smarter than hubs.
+
+4️⃣ Switch
+
+Function:
+
+Connects devices within a LAN
+
+How it Works:
+
+Learns MAC addresses
+
+Sends data only to the destination port
+
+Benefits:
+
+Reduced collisions
+
+Improved speed and security
+
+Types:
+
+Unmanaged: Plug-and-play (Home/Small office)
+
+Managed: VLANs, QoS (Enterprise networks)
+
+5️⃣ Bridge
+
+Function:
+
+Connects two LAN segments
+
+How it Works:
+
+Filters traffic using MAC addresses
+
+Reduces unnecessary traffic
+
+Note:
+
+Mostly replaced by Switches
+
+6️⃣ Access Point (AP)
+
+Function:
+
+Creates a Wireless LAN (WLAN)
+
+How it Works:
+
+Bridges wired Ethernet and wireless devices
+
+Difference from Router:
+
+AP provides Wi-Fi only
+
+Router assigns IP addresses and routes traffic
+
+🔸 Layer 3 Devices – Network Layer
+
+These devices work with IP Addresses and connect networks.
+
+7️⃣ Router
+
+Function:
+
+Connects multiple networks (LAN ↔ WAN)
+
+How it Works:
+
+Uses IP addresses
+
+Maintains a Routing Table to select best path
+
+Key Feature:
+
+Stops broadcast traffic
+
+Isolates networks
+
+8️⃣ Brouter (Bridge + Router)
+
+Function:
+
+Hybrid of Bridge and Router
+
+How it Works:
+
+Routes known protocols (TCP/IP)
+
+Bridges unknown or legacy protocols
+
+Status:
+
+Rarely used today
+
+🔸 Layer 4–7 Devices – Advanced Processing
+9️⃣ Gateway
+
+Function:
+
+Translates between dissimilar networks
+
+How it Works:
+
+Converts protocols, data formats, or architectures
+
+Example:
+
+Internet Gateway connecting private LAN to public internet
+
+🔟 Firewall
+
+Function:
+
+Network security guard
+
+Role:
+
+Monitors and controls incoming & outgoing traffic
+
+Types:
+
+Hardware Firewall: Dedicated appliance
+
+Software Firewall: Installed on systems
+
+Techniques:
+
+Packet Filtering
+
+Stateful Inspection
+
+📊 Summary: Hub vs Switch vs Router
+Feature	Hub	Switch	Router
+OSI Layer	Layer 1	Layer 2	Layer 3
+Address Type	None (Bits)	MAC Address	IP Address
+Data Flow	Broadcast	Unicast	Best Path Routing
+Intelligence	Dumb	Smart	Smarter
+Usage	Obsolete	LAN Devices	Network Connection
