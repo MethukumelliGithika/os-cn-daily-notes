@@ -1,0 +1,266 @@
+🌐 Types of Computer Networks
+
+
+📌 Introduction
+
+A computer network is a group of two or more independent computers and devices connected to share data, resources, and services. These connections can be established using wired media or wireless technologies.
+
+For example, sending a message from a smartphone to a laptop or accessing data from a remote server is possible because of computer networks.
+
+🔹 Classification of Computer Networks
+
+Computer networks can be classified based on:
+
+Geographical Area
+
+Transmission Medium
+
+Ownership and Access Control
+
+📍 Classification Based on Geographical Area
+
+This classification is based on the physical distance or area covered by the network.
+
+1️⃣ Personal Area Network (PAN)
+
+A PAN connects personal devices within a very short range around a single user.
+
+Coverage Range: 1–10 meters
+
+Key Technologies: Bluetooth, NFC, Infrared
+
+Example: Smartphone connected to wireless earbuds
+
+Usage: Short-range personal device communication
+
+2️⃣ Local Area Network (LAN)
+
+A LAN connects devices within a limited area such as a home, office, or building.
+
+Coverage Range: Room, building, or small campus
+
+Key Technologies: Ethernet, Wi-Fi
+
+Example: Home or office Wi-Fi network
+
+Usage: Fast and secure local communication
+
+3️⃣ Campus Area Network (CAN)
+
+A CAN connects multiple LANs within a campus or nearby buildings.
+
+Coverage Range: University or corporate campus
+
+Key Technologies: Ethernet, Fiber optics
+
+Example: College or corporate campus network
+
+Usage: Interconnecting LANs under one organization
+
+4️⃣ Metropolitan Area Network (MAN)
+
+A MAN connects networks across a city or metropolitan region.
+
+Coverage Range: City or large town
+
+Key Technologies: Fiber optics, Microwave, Metro Ethernet
+
+Example: City-wide ISP network
+
+Usage: High-speed city-level connectivity
+
+5️⃣ Wide Area Network (WAN)
+
+A WAN connects networks over very large geographical areas.
+
+Coverage Range: Country, continent, or global
+
+Key Technologies: Leased lines, Satellite links, Internet
+
+Example: The Internet
+
+Usage: Long-distance and global communication
+
+📡 Classification Based on Transmission Medium
+
+This classification depends on how data is transmitted between devices.
+
+1️⃣ Broadcast Network
+
+Uses a shared communication medium
+
+Data sent by one node is received by all nodes
+
+Only the destination device processes the data
+
+Follows one-to-many communication
+
+Mostly used in LANs
+
+Simple design but limited scalability
+
+Examples:
+
+Ethernet (bus-based)
+
+Wireless LAN (Wi-Fi)
+
+2️⃣ Point-to-Point Network
+
+Uses dedicated links between devices
+
+Data travels from sender to receiver directly
+
+Follows one-to-one communication
+
+Data may pass through intermediate devices
+
+Requires routing algorithms
+
+More secure and scalable
+
+Examples:
+
+Internet
+
+Leased line networks
+
+Telephone networks
+
+🔐 Classification Based on Ownership and Access Control
+
+This classification focuses on who owns the network and who can access it.
+
+1️⃣ Private Network
+
+Owned and managed by an organization or individual
+
+Access restricted to authorized users
+
+Uses authentication (passwords, VPNs, tokens)
+
+High security and control
+
+Used for internal communication
+
+Examples:
+
+Corporate intranet
+
+Office LAN
+
+Private cloud networks
+
+2️⃣ Public Network
+
+Owned by service providers or government
+
+Accessible to the general public
+
+Minimal authentication required
+
+Wide accessibility but lower security
+
+Examples:
+
+Internet
+
+Public Wi-Fi
+
+Mobile cellular networks
+
+3️⃣ Hybrid Network
+
+Combination of private and public networks
+
+Internal parts are restricted, external access is allowed
+
+Balances security and accessibility
+
+Examples:
+
+Corporate network connected to the Internet
+
+Enterprise cloud systems
+
+Online banking platforms
+
+🌍 Internetwork
+
+An Internetwork is a collection of two or more independent networks connected to function as a single logical network.
+
+Enables communication between different networks
+
+Uses networking devices and standard protocols
+
+The Internet is the largest example
+
+Key Characteristics
+
+Consists of multiple networks (LAN, MAN, WAN)
+
+Supports different technologies (wired/wireless)
+
+Communication enabled using standard protocols
+
+There are two main types: Intranet and Extranet
+
+🏢 Intranet
+
+An Intranet is a private network used within an organization.
+
+Features
+
+Access restricted to authorized users
+
+Owned and controlled by one organization
+
+Uses Internet protocols (TCP/IP, HTTP, FTP)
+
+Uses
+
+Employee portals
+
+Internal communication
+
+Sharing policies and documents
+
+Internal applications (HR, payroll)
+
+Examples
+
+Corporate internal websites
+
+University campus portals
+
+Government internal systems
+
+🌐 Extranet
+
+An Extranet is an extension of an intranet that provides limited access to external users.
+
+Features
+
+Partially private network
+
+Access for partners, vendors, customers
+
+Requires authentication and authorization
+
+Often implemented using VPN or secure access
+
+Uses
+
+B2B communication
+
+Supply chain management
+
+Customer and vendor portals
+
+Examples
+
+Supplier management systems
+
+Online banking portals
+
+Vendor access platforms
