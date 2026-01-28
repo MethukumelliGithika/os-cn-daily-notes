@@ -1,0 +1,76 @@
+OSI Model (Open Systems Interconnection Model)
+
+The OSI Model (Open Systems Interconnection Model) is a seven-layer reference model that explains how data is transmitted from one computer to another over a network. It was developed by the International Organization for Standardization (ISO) to standardize communication between different networking systems and technologies. The OSI model helps in understanding, designing, and troubleshooting network communication by dividing the process into layers.
+
+The OSI model provides a structured way to describe network functionality. Each layer has a specific role, and data moves from the top layer to the bottom layer at the sender side and from the bottom to the top layer at the receiver side.
+
+Need for OSI Model
+
+The OSI model is needed to standardize networking communication across different vendors and technologies. It reduces complexity by dividing the networking process into smaller, manageable layers. It helps in easy troubleshooting by identifying problems at a specific layer instead of the entire network. It also helps learners and professionals understand how data flows in a network.
+
+Layers of OSI Model
+
+The OSI Model consists of seven layers:
+Application Layer
+Presentation Layer
+Session Layer
+Transport Layer
+Network Layer
+Data Link Layer
+Physical Layer
+
+Application Layer
+
+The Application Layer is the topmost layer of the OSI model. It provides network services directly to the end user. This layer allows user applications to interact with the network. It is responsible for services such as file transfer, email, remote login, and web services.
+
+Examples of protocols used in this layer include HTTP, FTP, SMTP, and DNS.
+
+Presentation Layer
+
+The Presentation Layer is responsible for formatting, translating, encrypting, and compressing data. It ensures that the data sent by the application layer is understandable by the receiving system. This layer handles data representation and security.
+
+Examples include data encryption using SSL or TLS and data formatting such as JPEG or MPEG.
+
+Session Layer
+
+The Session Layer is responsible for establishing, managing, and terminating communication sessions between two systems. It controls dialog between devices and maintains synchronization during data transfer. It also provides checkpoints to recover from failures.
+
+Transport Layer
+
+The Transport Layer ensures reliable end-to-end data delivery. It breaks data into smaller segments, manages error control, flow control, and data reassembly at the destination. This layer ensures that data is delivered correctly and in sequence.
+
+Common transport layer protocols are TCP and UDP. TCP provides reliable communication, while UDP provides fast but unreliable communication.
+
+Network Layer
+
+The Network Layer is responsible for routing data from the source to the destination across multiple networks. It provides logical addressing using IP addresses and selects the best path for data transmission.
+
+Devices such as routers operate at this layer. Protocols used include IP, ICMP, and ARP.
+
+Data Link Layer
+
+The Data Link Layer is responsible for node-to-node data delivery. It converts packets into frames and adds physical addresses called MAC addresses. It also detects and handles errors that occur during transmission.
+
+This layer is divided into two sublayers: Logical Link Control (LLC) and Media Access Control (MAC). Switches and bridges work at this layer.
+
+Physical Layer
+
+The Physical Layer is the lowest layer of the OSI model. It deals with the physical transmission of data in the form of bits. It defines hardware components such as cables, connectors, voltage levels, and transmission modes.
+
+Examples include Ethernet cables, fiber optic cables, hubs, and repeaters.
+
+Data Flow in OSI Model
+
+At the sender side, data flows from the Application Layer down to the Physical Layer. At the receiver side, data flows from the Physical Layer up to the Application Layer. Each layer adds or removes its own information to ensure correct data delivery.
+
+Advantages of OSI Model
+
+The OSI model provides a clear understanding of how networks function. It simplifies network design and implementation. It makes troubleshooting easier by isolating problems to specific layers. It serves as a standard reference model for networking education.
+
+Limitations of OSI Model
+
+The OSI model is mostly theoretical and not fully implemented in real networks. It is more complex compared to the TCP/IP model. Modern networks primarily use the TCP/IP model for communication.
+
+Conclusion
+
+The OSI Model is an important reference model in computer networking. Although it is not directly used in real-world networks, it plays a crucial role in understanding network architecture and communication. It is widely used for academic learning, exams, and network troubleshooting.
