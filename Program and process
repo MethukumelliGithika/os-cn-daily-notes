@@ -1,0 +1,46 @@
+PROCESS AND PROGRAM
+
+A program is a set of instructions written in a programming language to perform a specific task. It is a passive entity that is stored on secondary storage such as a hard disk or SSD. A program does not do anything by itself. It becomes active only when it is loaded into memory and executed.
+
+A process is a program in execution. It is an active entity. When a program is loaded into main memory and starts running, the operating system creates a process for it. A process includes not only the program code but also its current activity, such as the value of the program counter, registers, stack, heap, and allocated resources.
+
+In simple words, a program is like a recipe written on paper, while a process is the actual cooking happening using that recipe.
+
+Key points about Program
+A program is a static entity
+It is stored on disk
+It does not need CPU time
+It does not have states
+Multiple processes can be created from the same program
+
+Key points about Process
+A process is a dynamic entity
+It resides in main memory
+It requires CPU time for execution
+It has states like new, ready, running, waiting, and terminated
+Each process is independent, even if created from the same program
+
+Difference between Program and Process
+
+Program
+Passive
+Stored on secondary storage
+No execution
+No states
+Single copy on disk
+
+Process
+Active
+Stored in main memory
+Under execution
+Has multiple states
+Multiple instances can exist
+
+Example
+Consider a text editor like Notepad.
+The Notepad application stored on disk is a program.
+When you open Notepad, the operating system creates a process for it.
+If you open Notepad twice, the same program creates two different processes.
+
+Conclusion
+A program is a static set of instructions, while a process is the active execution of those instructions. The operating system manages processes to ensure proper execution, resource allocation, and multitasking.
