@@ -1,0 +1,102 @@
+TCP/IP MODEL
+
+The TCP/IP Model (Transmission Control Protocol / Internet Protocol) is a networking model that explains how data is transmitted over the Internet and other computer networks. It was developed by the U.S. Department of Defense and is the foundation of the modern Internet.
+
+Unlike the OSI Model which has 7 layers, the TCP/IP Model has 4 layers. Each layer has specific responsibilities, and together they enable reliable communication between devices across networks.
+
+The TCP/IP Model focuses more on practical implementation rather than theoretical structure.
+
+Layers of TCP/IP Model
+
+Application Layer
+The Application Layer is the topmost layer of the TCP/IP model. It provides services directly to the user and applications. This layer combines the functions of the Application, Presentation, and Session layers of the OSI model.
+
+It allows applications to communicate over the network and defines protocols for specific services.
+
+Functions of Application Layer
+Provides user interface to network services
+Handles data formatting and communication setup
+Supports services like file transfer, email, and web browsing
+
+Common Protocols
+HTTP, HTTPS
+FTP
+SMTP, POP3, IMAP
+DNS
+Telnet
+
+Transport Layer
+The Transport Layer is responsible for end-to-end communication between devices. It ensures that data is delivered correctly and in the proper order.
+
+This layer decides whether data transmission should be reliable or fast.
+
+Functions of Transport Layer
+Segmentation of data
+Error detection and correction
+Flow control
+Port number addressing
+End-to-end communication
+
+Protocols Used
+TCP (Transmission Control Protocol)
+Provides reliable, connection-oriented communication
+Ensures data delivery, ordering, and error recovery
+
+UDP (User Datagram Protocol)
+Provides fast, connectionless communication
+No guarantee of delivery or order
+Used in streaming, gaming, and voice applications
+
+Internet Layer
+The Internet Layer is responsible for logical addressing and routing of data across different networks. It decides the best path for data to travel from source to destination.
+
+Functions of Internet Layer
+Logical addressing using IP addresses
+Routing packets between networks
+Packet forwarding
+Fragmentation of packets
+
+Protocols Used
+IP (Internet Protocol)
+ICMP
+ARP
+RARP
+
+Network Access Layer
+The Network Access Layer is the lowest layer of the TCP/IP model. It deals with the physical transmission of data over the network.
+
+This layer combines the Data Link and Physical layers of the OSI model.
+
+Functions of Network Access Layer
+Framing of data
+Physical addressing using MAC addresses
+Error detection at the hardware level
+Transmission of bits over the physical medium
+
+Examples
+Ethernet
+Wi-Fi
+PPP
+
+Data Flow in TCP/IP Model
+When data is sent from one device to another, it passes through all four layers of the TCP/IP model at the sender side and then moves upward through the layers at the receiver side.
+
+Application Layer creates the data
+Transport Layer divides data into segments
+Internet Layer adds IP address and routes packets
+Network Access Layer transmits data physically
+
+Difference Between OSI Model and TCP/IP Model
+
+OSI Model
+Has 7 layers
+Theoretical and conceptual model
+Developed by ISO
+
+TCP/IP Model
+Has 4 layers
+Practical and implementation-based model
+Developed by DARPA
+
+Conclusion
+The TCP/IP Model is the backbone of the Internet. It provides a simple and efficient way to understand how data is transmitted across networks. Even though the OSI Model is useful for learning, the TCP/IP Model is widely used in real-world networking systems.
