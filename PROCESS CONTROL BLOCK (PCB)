@@ -1,0 +1,54 @@
+PROCESS CONTROL BLOCK (PCB)
+
+A Process Control Block (PCB) is a data structure used by the Operating System to store all the information related to a process. Whenever a process is created, the OS creates a PCB for it. The PCB helps the operating system manage, control, and track the execution of processes.
+
+PCB acts like an identity card for a process. Without PCB, the operating system cannot manage processes efficiently.
+
+What Information Does PCB Contain
+
+Process ID (PID)
+A unique identification number assigned to each process.
+
+Process State
+Indicates the current state of the process such as new, ready, running, waiting, or terminated.
+
+Program Counter
+Stores the address of the next instruction to be executed for the process.
+
+CPU Registers
+Stores the contents of CPU registers required to resume the process execution after a context switch.
+
+CPU Scheduling Information
+Includes priority of the process, scheduling queue pointers, and other scheduling-related information.
+
+Memory Management Information
+Contains information about memory allocated to the process such as base and limit registers, page tables, or segment tables.
+
+Accounting Information
+Stores details like CPU usage time, execution time limits, and process start time.
+
+I/O Status Information
+Contains information about I/O devices allocated to the process and list of open files.
+
+Role of PCB in Process Management
+
+Helps the OS keep track of all active processes
+Used during context switching to save and restore process state
+Allows multitasking by switching between multiple processes
+Supports scheduling and resource allocation
+
+Context Switching and PCB
+
+When the CPU switches from one process to another, the operating system saves the current process’s state into its PCB. Then it loads the next process’s state from its PCB. This process is called context switching.
+
+Without PCB, context switching would not be possible.
+
+Example
+
+When you open a browser, the OS creates a process and assigns it a PCB.
+If you open multiple tabs or applications, each process will have its own PCB.
+The OS uses PCB to manage all these processes efficiently.
+
+Conclusion
+
+The Process Control Block is a crucial component of an operating system. It stores all the essential information required to manage a process and enables multitasking, scheduling, and smooth execution of multiple processes in a system.
