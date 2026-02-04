@@ -1,0 +1,80 @@
+OSI MODEL vs TCP/IP MODEL
+
+The OSI Model and the TCP/IP Model are reference models used to understand and design computer network communication. Both explain how data is transmitted over a network, but they differ in structure, purpose, and usage.
+
+OSI Model
+The OSI (Open Systems Interconnection) Model is a theoretical reference model developed by ISO. It has seven layers and is mainly used for learning, teaching, and troubleshooting network concepts.
+
+Layers of OSI Model
+
+Physical
+
+Data Link
+
+Network
+
+Transport
+
+Session
+
+Presentation
+
+Application
+
+TCP/IP Model
+The TCP/IP (Transmission Control Protocol / Internet Protocol) Model is a practical model developed by DARPA. It is used in real-world networks, including the Internet. It has four layers.
+
+Layers of TCP/IP Model
+
+Network Access
+
+Internet
+
+Transport
+
+Application
+
+Layer Mapping between OSI and TCP/IP
+
+OSI Physical + Data Link → TCP/IP Network Access
+OSI Network → TCP/IP Internet
+OSI Transport → TCP/IP Transport
+OSI Session + Presentation + Application → TCP/IP Application
+
+Key Differences between OSI Model and TCP/IP Model
+
+Definition
+OSI Model is a conceptual and theoretical model
+TCP/IP Model is a practical and implementation-based model
+
+Number of Layers
+OSI Model has 7 layers
+TCP/IP Model has 4 layers
+
+Developed By
+OSI Model was developed by ISO
+TCP/IP Model was developed by DARPA
+
+Usage
+OSI Model is mainly used for learning and troubleshooting
+TCP/IP Model is used for real network communication
+
+Protocol Dependency
+OSI Model is protocol-independent
+TCP/IP Model is built around specific protocols
+
+Layer Separation
+OSI Model has clear and strict separation of layers
+TCP/IP Model has loosely defined layers
+
+Protocols
+OSI Model does not define specific protocols
+TCP/IP Model includes real protocols like TCP, UDP, IP, HTTP, FTP, DNS
+
+Reliability
+OSI Model defines services before protocols
+TCP/IP Model defines protocols first, then services
+
+Conclusion
+
+The OSI Model is best suited for understanding how networks work in a structured way, while the TCP/IP Model is designed for actual data communication over the Internet. Both models are important for learning computer networking concepts and are commonly asked in exams and interviews.
