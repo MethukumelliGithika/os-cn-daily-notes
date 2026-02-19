@@ -1,0 +1,96 @@
+CPU SCHEDULING IN OPERATING SYSTEM
+
+CPU Scheduling is the process by which the operating system selects one process from the ready queue and allocates the CPU to it. Since multiple processes may be ready to execute at the same time, the operating system must decide which process gets CPU time.
+
+CPU scheduling improves system efficiency, ensures fairness, and maximizes CPU utilization.
+
+Need for CPU Scheduling
+
+In a multiprogramming system, many processes are loaded into memory at the same time. Only one process can use the CPU at a time. Therefore, the operating system must decide which process should run next. This decision-making mechanism is called CPU scheduling.
+
+The main goals of CPU scheduling are:
+
+Maximize CPU utilization
+Minimize waiting time
+Minimize turnaround time
+Minimize response time
+Provide fairness to all processes
+
+Basic Scheduling Terms
+
+Arrival Time
+The time at which a process enters the ready queue.
+
+Burst Time
+The amount of time a process needs on the CPU.
+
+Completion Time
+The time at which a process finishes execution.
+
+Turnaround Time
+Completion Time minus Arrival Time.
+
+Waiting Time
+Turnaround Time minus Burst Time.
+
+Response Time
+The time between submission of request and first response.
+
+Types of CPU Scheduling Algorithms
+
+First Come First Serve (FCFS)
+
+In FCFS scheduling, the process that arrives first is executed first. It follows the principle of queue. It is simple to implement but may cause long waiting time for short processes.
+
+Advantages
+Simple and easy to implement
+No starvation
+
+Disadvantages
+High average waiting time
+Convoy effect may occur
+
+Shortest Job First (SJF)
+
+In SJF scheduling, the process with the smallest burst time is executed first. It can be preemptive or non-preemptive.
+
+Advantages
+Minimum average waiting time
+Efficient for batch systems
+
+Disadvantages
+Difficult to predict burst time
+Possible starvation of long processes
+
+Priority Scheduling
+
+In Priority Scheduling, each process is assigned a priority. The process with the highest priority is executed first. It can also be preemptive or non-preemptive.
+
+Advantages
+Important processes are executed first
+
+Disadvantages
+Low priority processes may suffer starvation
+
+Round Robin Scheduling
+
+Round Robin scheduling assigns a fixed time quantum to each process. Each process gets CPU for a limited time. If it does not complete within that time, it goes back to the ready queue.
+
+Advantages
+Fair allocation of CPU
+Good for time-sharing systems
+
+Disadvantages
+Performance depends on time quantum size
+
+Preemptive vs Non-Preemptive Scheduling
+
+Preemptive Scheduling
+The operating system can interrupt a running process and allocate CPU to another process.
+
+Non-Preemptive Scheduling
+Once a process starts execution, it runs until it finishes or enters waiting state.
+
+Conclusion
+
+CPU Scheduling is a fundamental concept in operating systems. It ensures efficient utilization of CPU and smooth execution of multiple processes. Different scheduling algorithms are used based on system requirements such as fairness, efficiency, and response time. Understanding CPU scheduling is essential for exams, interviews, and system design knowledge.
