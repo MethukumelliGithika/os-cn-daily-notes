@@ -1,0 +1,11 @@
+| Feature            | TCP                                       | UDP                    |
+| ------------------ | ----------------------------------------- | ---------------------- |
+| Full form          | Transmission Control Protocol             | User Datagram Protocol |
+| Connection         | Connection-oriented                       | Connectionless         |
+| Reliability        | Reliable (acknowledgment, retransmission) | Unreliable             |
+| Speed              | Slow                                      | Fast                   |
+| Ordering           | Ordered delivery                          | No ordering guarantee  |
+| Error checking     | Strong error control                      | Basic error check      |
+| Flow control       | Yes                                       | No                     |
+| Congestion control | Yes                                       | No                     |
+| Header size        | Large (20 bytes)                          | Small (8 bytes)        |
