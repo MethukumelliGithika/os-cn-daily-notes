@@ -1,0 +1,51 @@
+A deadlock is a situation where two or more processes are unable to proceed because each is waiting for a resource held by another process.
+
+🔹 Example
+
+Process P1 holds Resource R1 and waits for R2
+
+Process P2 holds Resource R2 and waits for R1
+➡️ This circular waiting results in a deadlock
+
+🔹 Necessary Conditions for Deadlock
+
+Deadlock occurs only if all four conditions hold:
+
+Mutual Exclusion – Resources cannot be shared
+
+Hold and Wait – A process holds at least one resource while waiting for others
+
+No Preemption – Resources cannot be forcibly taken from a process
+
+Circular Wait – A circular chain of processes exists where each waits for a resource held by the next
+
+🔹 Deadlock Handling Methods
+✅ Prevention
+
+Eliminate at least one of the necessary conditions
+
+✅ Avoidance
+
+System ensures it never enters an unsafe state (e.g., Banker’s algorithm)
+
+✅ Detection and Recovery
+
+Detect deadlock and recover by terminating processes or preempting resources
+
+✅ Ignore (Ostrich Approach)
+
+Assume deadlocks are rare and ignore them
+
+🔹 Safe State vs Unsafe State
+
+Safe state → System can allocate resources without causing deadlock
+
+Unsafe state → Deadlock may occur
+
+🔹 Advantages of Handling Deadlock
+
+Improved system stability
+
+Better resource utilization
+
+Increased performance
