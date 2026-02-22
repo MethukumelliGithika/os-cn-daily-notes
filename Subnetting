@@ -1,0 +1,86 @@
+Subnetting (Computer Networks)
+
+Definition:
+Subnetting is the process of dividing a large IP network into smaller logical networks called subnets. It helps in efficient use of IP addresses and improves network performance and management.
+
+Why subnetting is needed:
+
+Efficient utilization of IP addresses
+
+Reduction of network congestion and broadcast traffic
+
+Improved security through network isolation
+
+Easier network administration
+
+Better routing efficiency
+
+Basic concepts
+
+IP address:
+An IPv4 address consists of 32 bits divided into two parts:
+
+Network portion
+
+Host portion
+
+Example: 192.168.1.10
+
+Subnet mask:
+A subnet mask identifies the network and host parts of an IP address.
+Example: 255.255.255.0 corresponds to /24.
+
+CIDR notation:
+CIDR represents the subnet mask using prefix length.
+Example: /24 means 24 bits for network and 8 bits for host.
+
+Subnetting formulas:
+Number of subnets = 2^n
+Number of hosts per subnet = 2^h − 2
+
+Where:
+n = number of borrowed bits
+h = number of remaining host bits
+
+Subnetting example:
+Given network: 192.168.1.0/24
+Required subnets: 4
+
+To create 4 subnets, borrow 2 bits (2^2 = 4).
+New subnet mask = /26 (255.255.255.192)
+
+Subnets formed:
+
+192.168.1.0 – 192.168.1.63
+
+192.168.1.64 – 192.168.1.127
+
+192.168.1.128 – 192.168.1.191
+
+192.168.1.192 – 192.168.1.255
+
+Each subnet supports 62 hosts.
+
+Advantages of subnetting:
+
+Reduces broadcast traffic
+
+Improves network performance
+
+Enhances security
+
+Efficient IP allocation
+
+Enables hierarchical routing
+
+Important interview questions:
+
+What is subnetting?
+
+Difference between subnet mask and CIDR
+
+How many hosts in /26 network?
+
+What is a broadcast address?
+
+Difference between VLSM and FLSM
