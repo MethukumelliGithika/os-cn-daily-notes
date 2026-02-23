@@ -1,0 +1,91 @@
+Definition:
+Memory management is a function of the operating system that handles the allocation and deallocation of memory to processes and ensures efficient utilization of main memory.
+
+Objectives of Memory Management:
+
+Efficient memory utilization
+
+Process isolation and protection
+
+Support for multiprogramming
+
+Minimization of fragmentation
+
+Faster memory access
+
+Functions of Memory Management:
+
+Allocation and deallocation of memory
+
+Tracking memory usage
+
+Address translation (logical to physical address)
+
+Memory protection
+
+Sharing memory among processes
+
+Types of Memory Allocation
+
+1. Contiguous Allocation
+A process is allocated a single continuous block of memory.
+Problems: external fragmentation.
+
+2. Non-contiguous Allocation
+A process is divided into parts and stored in different memory locations.
+Examples: paging and segmentation.
+
+Paging:
+Paging divides memory into fixed-size blocks called pages and frames.
+
+Eliminates external fragmentation
+
+May cause internal fragmentation
+
+Segmentation:
+Segmentation divides memory into logical segments such as code, data, and stack.
+
+Supports logical organization
+
+May cause external fragmentation
+
+Virtual Memory:
+Virtual memory allows execution of processes even if they are not completely in main memory by using secondary storage.
+
+Advantages:
+
+Large program execution
+
+Improved multiprogramming
+
+Efficient memory utilization
+
+Fragmentation Types
+
+Internal Fragmentation:
+Unused memory inside allocated block.
+
+External Fragmentation:
+Free memory available but scattered in small blocks.
+
+Advantages of Memory Management:
+
+Efficient memory usage
+
+Process protection
+
+Increased system performance
+
+Supports multitasking
+
+Important Interview Questions:
+
+What is memory management?
+
+Difference between paging and segmentation
+
+What is virtual memory?
+
+Internal vs external fragmentation
+
+What is address translation?
