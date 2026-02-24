@@ -1,0 +1,63 @@
+Paging (Operating System)
+
+Definition:
+Paging is a memory management technique in which a process is divided into fixed-size blocks called pages and main memory is divided into blocks of the same size called frames. Pages are loaded into available frames in physical memory.
+
+Basic Concept:
+
+Logical memory is divided into pages
+
+Physical memory is divided into frames
+
+Each page can be placed in any free frame
+
+Address translation is done using a page table
+
+Address Translation in Paging:
+The logical address is divided into two parts:
+
+Page number
+
+Offset
+
+The page number is used to index the page table, which provides the frame number. The frame number combined with the offset forms the physical address.
+
+Page Table:
+A page table is a data structure maintained by the operating system that maps pages to frames and supports address translation.
+
+Advantages of Paging:
+
+Eliminates external fragmentation
+
+Supports virtual memory
+
+Efficient memory utilization
+
+Simplifies memory allocation
+
+Allows non-contiguous memory allocation
+
+Disadvantages of Paging:
+
+Internal fragmentation may occur
+
+Page table consumes memory
+
+Address translation overhead
+
+Increased memory access time
+
+Internal Fragmentation in Paging:
+Occurs when the last page of a process does not fully utilize the allocated frame, leaving unused space.
+
+Important Interview Questions:
+
+What is paging?
+
+Difference between page and frame
+
+What is a page table?
+
+Explain address translation in paging
+
+Advantages and disadvantages of paging
