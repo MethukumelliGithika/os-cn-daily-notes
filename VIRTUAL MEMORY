@@ -1,0 +1,62 @@
+Virtual Memory (Operating System)
+
+Definition:
+Virtual memory is a memory management technique that allows the execution of processes even if they are not completely loaded into main memory by using secondary storage as an extension of RAM.
+
+Basic Concept:
+Virtual memory creates an illusion of a large memory space by combining main memory and secondary storage. Only the required portions of a program are loaded into RAM while the rest remain on disk.
+
+Working of Virtual Memory:
+
+A process is divided into pages or segments
+
+Required pages are loaded into main memory
+
+If a required page is not in memory, a page fault occurs
+
+The operating system loads the required page from secondary storage
+
+Execution continues after loading the page
+
+Page Fault:
+A page fault occurs when a process tries to access a page that is not currently present in main memory.
+
+Advantages of Virtual Memory:
+
+Allows execution of large programs
+
+Improves multiprogramming
+
+Efficient memory utilization
+
+Increases CPU utilization
+
+Provides process isolation
+
+Disadvantages of Virtual Memory:
+
+Page faults cause delay
+
+Increased overhead due to address translation
+
+Thrashing may occur if page faults are frequent
+
+Requires additional hardware support
+
+Demand Paging:
+Demand paging is a virtual memory technique where pages are loaded into memory only when they are needed.
+
+Thrashing:
+Thrashing is a condition where excessive page faults occur, causing the system to spend more time swapping pages than executing processes.
+
+Important Interview Questions:
+
+What is virtual memory?
+
+What is a page fault?
+
+Advantages and disadvantages of virtual memory
+
+What is demand paging?
+
+What is thrashing?
