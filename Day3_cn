@@ -1,0 +1,66 @@
+📖 Introduction
+
+In computer networks, TCP and UDP are two important communication protocols used at the Transport Layer of the OSI Model.
+
+They define how data is transmitted between devices over a network.
+
+🔹 TCP (Transmission Control Protocol)
+
+TCP is a connection-oriented protocol that ensures reliable and ordered delivery of data.
+
+Key Features
+
+Reliable communication
+
+Error detection and correction
+
+Data arrives in the correct order
+
+Uses acknowledgments (ACK)
+
+Examples of TCP Usage
+
+Web browsing (HTTP/HTTPS)
+
+Email
+
+File transfer
+
+🔹 UDP (User Datagram Protocol)
+
+UDP is a connectionless protocol that sends data without establishing a connection.
+
+Key Features
+
+Faster than TCP
+
+No error checking
+
+No guaranteed delivery
+
+No ordering of packets
+
+Examples of UDP Usage
+
+Online gaming
+
+Video streaming
+
+DNS queries
+
+📊 TCP vs UDP Comparison
+Feature	TCP	UDP
+Connection Type	Connection-oriented	Connectionless
+Reliability	Reliable	Unreliable
+Speed	Slower	Faster
+Error Checking	Yes	No
+Data Order	Maintained	Not maintained
+🧠 Simple Example
+
+TCP → Like sending a registered post (delivery confirmation).
+
+UDP → Like sending a normal message without confirmation.
+
+📚 Conclusion
+
+Both TCP and UDP are essential transport layer protocols. TCP is used where reliability is important, while UDP is used where speed is more important than accuracy.
